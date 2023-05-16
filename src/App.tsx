@@ -7,6 +7,9 @@ function App() {
   const [minimumTemperature, setMinimumTemperature] = useState('0')
   const [maximumTemperature, setMaximumTemperature] = useState('100')
   const [targetTemperature, setTargetTemperature] = useState('66')
+  // commented out for now:
+  // const [temperature, setTemperature] = useState('66')
+
   return (
       <div className="main">
         <TemperatureSetupForm
