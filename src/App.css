@@ -1,0 +1,36 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw
+}
+
+.setupForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-bottom: 10vh;
+}
+
+label {
+  vertical-align: middle;
+  display: inline-block;
+  margin-left: 0.25rem;
+  margin-right: 1.5rem;
+  margin-bottom: 0.5rem;
+  font: 1.25rem sans-serif;
+}
+
+.targetTemperatureLabel {
+  margin-right: unset;
+  font-size: xx-large;
+}
+
+input {
+  font: 1.25rem / 1.5 sans-serif;
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+}
